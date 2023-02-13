@@ -1,5 +1,8 @@
 .ipynb_checkpoints
 *.pickle
-out
-data
 notebooks
+data/*.csv
+data/*.jsonl
+data/*.model
+data/*.txt
+data/snli_1.0
