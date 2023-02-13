@@ -19,3 +19,7 @@ Option 1:
 1. Start jupyter noteook from the root folder of the source code, i.e. "/supervised_learning_spring_2023"
 2. Open the "Bank Data Results.ipynb" notebook in the "/supervised_learning_spring_2023/results" folder and run each cell
 3. Open the "SNLI Results.ipynb" notebook in the "/supervised_learning_spring_2023/results" folder and run each cell
+
+Option 2:
+1. From the top folder of "/supervised_learning_spring_2023" run the script "src/bank_data_results.py"
+2. From the top folder of "/supervised_learning_spring_2023" run the script "src/snli_results.py"
