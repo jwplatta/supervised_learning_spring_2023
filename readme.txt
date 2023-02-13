@@ -16,19 +16,6 @@ Before reproducing the results ensure that the following files are downloaded fr
 Also ensure that the dependencies in requirements.txt are installed.
 
 Option 1:
-1. Start jupyter notebook from the root folder of the source code, i.e. "/supervised_learning_spring_2023"
-2. Open the "Bank Data Results.ipynb" notebook and run each cell
-3. Open the "SNLI Results.ipynb" notebook and run each cell
-
-Option 2:
-1. From the root folder of the source code, i.e. "/supervised_learning_spring_2023", run the following scripts:
-
-```sh
-$ cd ~/supervised_learning_spring_2023
-$ python bank_data_results.py
-```
-3. SNLI data results
-```sh
-$ cd ~/supervised_learning_spring_2023
-$ python snli_results.py
-```
+1. Start jupyter noteook from the root folder of the source code, i.e. "/supervised_learning_spring_2023"
+2. Open the "Bank Data Results.ipynb" notebook in the "/supervised_learning_spring_2023/results" folder and run each cell
+3. Open the "SNLI Results.ipynb" notebook in the "/supervised_learning_spring_2023/results" folder and run each cell
