@@ -21,5 +21,5 @@ Option 1:
 3. Open the "SNLI Results.ipynb" notebook in the "/supervised_learning_spring_2023/results" folder and run each cell
 
 Option 2:
-1. From the top folder of "/supervised_learning_spring_2023" run the script "src/bank_data_results.py"
-2. From the top folder of "/supervised_learning_spring_2023" run the script "src/snli_results.py"
+1. From the top folder of "/supervised_learning_spring_2023" run the script "bank_data_results.py"
+2. From the top folder of "/supervised_learning_spring_2023" run the script "snli_results.py"
