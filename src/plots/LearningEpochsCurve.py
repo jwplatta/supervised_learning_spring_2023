@@ -14,14 +14,17 @@ class LearningEpochsCurve(PlotBase):
             self.train_scores = train_scores
             self.test_scores = test_scores
 
-    def plot(self, ax=None, figsize=(8,5)):
+    def plot(self, ax=None, figsize=(8,5), title=None):
         if ax:
             fig = None
         else:
             fig, ax = plt.subplots(1, 1, figsize=figsize)
             plt.style.use('seaborn')
 
-        ax.set_title('Learning Curve (Epochs)')
+        if title:
+            ax.set_title(title)
+        else:
+            ax.set_title('Learning Curve (Epochs)')
 
         ax.plot(self.train_scores, 'b', label='train')
         ax.plot(self.test_scores, 'g', label='validation')
@@ -35,6 +38,6 @@ class LearningEpochsCurve(PlotBase):
         ax.set_ylim(min_loss - 0.1, max_loss + 0.1)
         ax.set_xlim(0, len(self.train_scores))
 
-        plt.legend(loc='best')
+        ax.legend(loc='best')
 
         return fig, ax
